@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    width: 40%;
+    padding-top: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul a{
+    color: rgb(14, 168, 168);
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+.header button{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.search input{
+    padding: 3px 20px;
+}
+
+/* section-1 */
+
+.banner img{
+    width: 50%;
+}
+
+.banner{
+    display: flex;
+    padding: 0 50px;
+}
+
+.section-1 h1{
+    text-align: center;
+    color: rgb(23, 186, 186);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.section-1 p{
+    color: rgb(215, 142, 7);
+    font-style: italic;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #0397d2;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.copyright{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+/* Tour-Form */
+
+.book-tour{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header-form{
+    background-color: rgb(18, 189, 189);
+    font-size: 15px;
+    color: white;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.body-form{
+    background-color: rgba(222, 217, 217, 0.762);
+}
+
+.form-element{
+    padding: 10px;
+}
+
+.book-tour label{
+    display: inline-block;
+    width: 120px;
+}
+
+.book-tour input{
+    width: 180px;
+    padding: 5px;
+}
+
+.book-tour select{
+    width: 175px;
+    padding: 5px;    
+}
+
+.submit-button{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.submit-button button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total-amount{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Price */
+
+#price{
+    color: orange;
+    text-align: end;
+    display: inline-block;
+    width: 170px;
+}
